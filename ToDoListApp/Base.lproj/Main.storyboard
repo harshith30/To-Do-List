@@ -69,8 +69,8 @@
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="New to-do item" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kv1-PO-f3d">
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="4hO-zy-lfi"/>
-                                    <constraint firstAttribute="height" constant="37" id="YEP-yq-CfR"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="EtU-gH-0eN"/>
+                                    <constraint firstAttribute="height" constant="37" id="MJv-ie-XdD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -78,12 +78,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Kv1-PO-f3d" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="B3U-Zn-Sog"/>
-                            <constraint firstItem="Kv1-PO-f3d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gjh-0Q-G6i"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Kv1-PO-f3d" secondAttribute="bottom" constant="158" id="NDA-6g-c4L"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kv1-PO-f3d" secondAttribute="bottom" constant="158" id="eDr-Ke-n2g"/>
-                            <constraint firstItem="Kv1-PO-f3d" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="221" id="gsL-lY-rkw"/>
-                            <constraint firstItem="Kv1-PO-f3d" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="jtU-LU-ehH"/>
+                            <constraint firstItem="Kv1-PO-f3d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5Df-CV-x6b"/>
+                            <constraint firstItem="Kv1-PO-f3d" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="86" id="SKS-tr-M3j"/>
+                            <constraint firstItem="Kv1-PO-f3d" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="bG7-tJ-62s"/>
+                            <constraint firstItem="Kv1-PO-f3d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zXj-Bp-SM3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add To-Do Item" id="Ryb-cH-ZRF">
